@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main class="contact">
+      <h1 class="contactTitle">Contact</h1>
+      <form class="contactForm">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+          class="contactFields"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email "
+          class="contactFields"
+        />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          class="contactFields"
+        ></textarea>
+        <button type="submit" class="contactSubmit" id="contactSubmit">
+          Submit
+        </button>
+      </form>
+      <p><a href="./index.html" class="contactBack">Home</a></p>
+    </main>
+    <script>
+      document
+        .getElementById("contactSubmit")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+        });
+    </script>
+  </body>
+</html>

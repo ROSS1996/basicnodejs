@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.index,
+.about,
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.menuLinks {
+  list-style-type: none;
+}
+
+.menuLinks a {
+  color: #20b2aa;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.menuLinks a:hover {
+  text-decoration: underline;
+}
+
+.aboutTitle,
+.contactTitle {
+    color: rgb(225, 255, 143);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.aboutText {
+  color: #20b2aa;
+  text-align: justify;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.aboutBack, .contactBack {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.aboutBack:hover, .contactBack:hover {
+  text-decoration: underline;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.contactFields {
+    padding: 8px;
+}
+
+.contactSubmit {
+    padding: 2px;
+}
