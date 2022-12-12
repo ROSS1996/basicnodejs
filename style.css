@@ -9,7 +9,7 @@ body {
 
 .index,
 .about,
-.contact {
+.contact, .error {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,26 +35,26 @@ body {
 }
 
 .aboutTitle,
-.contactTitle {
+.contactTitle, .errorTitle {
     color: rgb(225, 255, 143);
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-.aboutText {
+.aboutText, .errorText {
   color: #20b2aa;
   text-align: justify;
   font-size: 2rem;
   font-weight: 600;
 }
-.aboutBack, .contactBack {
+.aboutBack, .contactBack, .errorBack {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.aboutBack:hover, .contactBack:hover {
+.aboutBack:hover, .contactBack:hover, .errorBack:hover {
   text-decoration: underline;
 }
 
