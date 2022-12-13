@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ROSS1996/basicnodejs/issues"
   },
-  "homepage": "https://github.com/ROSS1996/basicnodejs#readme"
+  "homepage": "https://github.com/ROSS1996/basicnodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
